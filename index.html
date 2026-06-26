@@ -1,60 +1,555 @@
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Turners Bookstore - Home</title>
-    <!-- Bootstrap 5 CSS -->
+
+    <title>Page Turners Bookstore</title>
+
+    <!-- Bootstrap 5.3.0 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">📚 Page Turners</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+            <a class="navbar-brand" href="index.html">
+                📚 Page Turners
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
                 <span class="navbar-toggler-icon"></span>
+
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
+
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
-                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="books.html">
+                            Books
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">
+                            Events
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">
+                            Gallery
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+
                 </ul>
+
             </div>
+
         </div>
     </nav>
 
-    
-    <main>
-        <div class="container my-5">
-            <div class="text-center">
-                <h1>Welcome to Page Turners Bookstore</h1>
-                <p class="lead">Your cozy neighborhood bookshop since 2010</p>
+    <!-- ===========================
+            HERO SECTION
+    ============================ -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <h1 class="display-4 fw-bold">
+                        Welcome to Page Turners 📚
+                    </h1>
+
+                    <p class="lead mt-3">
+                        Discover your next favourite book in our cozy neighbourhood bookstore.
+                        Whether you enjoy fiction, mystery, romance, children's books,
+                        or inspiring biographies, we have something for every reader.
+                    </p>
+
+                    <a href="books.html" class="btn btn-book me-2 mt-3">
+                        Browse Books
+                    </a>
+
+                    <a href="events.html" class="btn btn-outline-dark mt-3">
+                        Upcoming Events
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6 text-center">
+
+                    <img src="images/storefront.jpg"
+                        class="img-fluid rounded shadow"
+                        alt="Book Store">
+
+                </div>
+
             </div>
+
         </div>
-    </main>
+
+    </section>
+
+    <!-- ===========================
+            FEATURED BOOKS
+    ============================ -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+                ⭐ Featured Books
+            </h2>
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <div class="card h-100">
+
+                        <img src="images/bookshelf.jpg"
+                            class="card-img-top"
+                            alt="Bookshelf">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Fiction Collection
+                            </h5>
+
+                            <p class="card-text">
+                                Discover bestselling novels, timeless classics,
+                                and unforgettable stories from around the world.
+                            </p>
+
+                            <a href="books.html" class="btn btn-book">
+                                View Books
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card h-100">
+
+                        <img src="images/children.jpg"
+                            class="card-img-top"
+                            alt="Children Books">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Children's Books
+                            </h5>
+
+                            <p class="card-text">
+                                Spark young imaginations with exciting adventures,
+                                educational books, and bedtime stories.
+                            </p>
+
+                            <a href="books.html" class="btn btn-book">
+                                View Books
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card h-100">
+
+                        <img src="images/cozy.jpg"
+                            class="card-img-top"
+                            alt="Reading">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Reading Corner
+                            </h5>
+
+                            <p class="card-text">
+                                Relax in our comfortable reading space while
+                                enjoying your favourite books and fresh coffee.
+                            </p>
+
+                            <a href="books.html" class="btn btn-book">
+                                Learn More
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+        <!-- ===========================
+            WHY CHOOSE US
+    ============================ -->
+
+    <section class="py-5 bg-light">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+                💖 Why Choose Page Turners?
+            </h2>
+
+            <div class="row text-center">
+
+                <div class="col-md-4">
+
+                    <div class="p-4">
+
+                        <h1>📚</h1>
+
+                        <h4>Wide Collection</h4>
+
+                        <p>
+                            Browse hundreds of books from every genre,
+                            including fiction, mystery, romance,
+                            biographies and children's books.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="p-4">
+
+                        <h1>☕</h1>
+
+                        <h4>Cozy Reading Space</h4>
+
+                        <p>
+                            Relax in our comfortable reading area while
+                            enjoying a delicious cup of coffee.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="p-4">
+
+                        <h1>🎉</h1>
+
+                        <h4>Community Events</h4>
+
+                        <p>
+                            Meet authors, attend book launches,
+                            and join exciting reading clubs throughout
+                            the year.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===========================
+            UPCOMING EVENTS
+    ============================ -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+                📅 Upcoming Events
+            </h2>
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <div class="card h-100">
+
+                        <img src="images/event.jpg"
+                             class="card-img-top"
+                             alt="Author Event">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Author Meet & Greet
+                            </h5>
+
+                            <p class="card-text">
+                                Meet local and international authors,
+                                ask questions, and have your books signed.
+                            </p>
+
+                            <a href="events.html"
+                               class="btn btn-book">
+                                Learn More
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card h-100">
+
+                        <img src="images/children.jpg"
+                             class="card-img-top"
+                             alt="Story Time">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Children's Story Time
+                            </h5>
+
+                            <p class="card-text">
+                                Fun storytelling sessions that encourage
+                                children to develop a love for reading.
+                            </p>
+
+                            <a href="events.html"
+                               class="btn btn-book">
+                                Learn More
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===========================
+            GALLERY PREVIEW
+    ============================ -->
+
+    <section class="py-5 bg-light">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+                📷 Gallery Preview
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <img src="images/bookshelf.jpg"
+                         class="img-fluid rounded shadow"
+                         alt="Bookshelf">
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <img src="images/coffeeshop.jpg"
+                         class="img-fluid rounded shadow"
+                         alt="Coffee Shop">
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <img src="images/cozy.jpg"
+                         class="img-fluid rounded shadow"
+                         alt="Reading Area">
+
+                </div>
+
+            </div>
+
+            <div class="text-center mt-5">
+
+                <a href="gallery.html"
+                   class="btn btn-book">
+                    View Full Gallery
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===========================
+            CALL TO ACTION
+    ============================ -->
+
+    <section class="py-5">
+
+        <div class="container text-center">
+
+            <h2>
+                Ready to Discover Your Next Favourite Book?
+            </h2>
+
+            <p class="lead mt-3">
+                Visit Page Turners today and explore a world
+                filled with knowledge, imagination and adventure.
+            </p>
+
+            <a href="contact.html"
+               class="btn btn-book btn-lg mt-3">
+                Visit Us Today
+            </a>
+
+        </div>
+
+    </section>
+
 
     
-    <footer class="bg-dark text-white text-center py-4 mt-5">
+        
+
+    <footer class="bg-dark text-white pt-4 pb-3">
+
         <div class="container">
-            <p>&copy; 2026 Page Turners Bookstore. All rights reserved.</p>
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <h4>📚 Page Turners</h4>
+
+                    <p>
+                        Your friendly neighbourhood bookstore,
+                        inspiring readers one page at a time.
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <h5>Quick Links</h5>
+
+                    <ul class="list-unstyled">
+
+                        <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="books.html" class="text-white text-decoration-none">Books</a></li>
+                        <li><a href="events.html" class="text-white text-decoration-none">Events</a></li>
+                        <li><a href="gallery.html" class="text-white text-decoration-none">Gallery</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <h5>Contact Us</h5>
+
+                    <p>
+                        📍 Nairobi, Kenya
+                    </p>
+
+                    <p>
+                        📞 +254 717 525 597
+                    </p>
+
+                    <p>
+                        ✉ info@pageturners.com
+                    </p>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+
+                <p class="mb-0">
+                    &copy; 2026 Page Turners Bookstore. All Rights Reserved.
+                </p>
+
+            </div>
+
         </div>
+
     </footer>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
-</body>
-</html>
-
-
 
     
+    <script src="script.js"></script>
+
+</body>
+</html>
